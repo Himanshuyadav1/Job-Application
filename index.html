@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Job Application (Web)</h1>
+        <form>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" placeholder="Enter First Name...">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" placeholder="Enter Last Name...">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter Email...">
+            <label for="job-role">Job Role</label>
+            <select name="job-role" id="job-role">
+                <option value="Select Job Role">Select Job Role</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Backend Developer">Backend Developer</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+                <option value="UI UX Designer">UI UX Designer</option> 
+            </select>
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter Address"></textarea>
+            <label for="city">City</label>
+            <input type="text" name="city" placeholder="Enter City Name...">
+            <label for="pincode">Pincode</label>
+            <input type="text" name="pincode" placeholder="Enter Pincode...">
+            <label for="date">Date</label>
+            <input type="date" name="date">
+            <label for="cv">Upload Your CV</label>
+            <input type="file" name="cv">
+            <input type="submit" value="Apply Now">
+        </form>
+    </main>
+</body>
+</html>
